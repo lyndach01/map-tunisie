@@ -33,6 +33,19 @@ html {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
     animation: fadeInDown 0.8s ease;
 }
+/* Drapeau Tunisie - Header */
+.flag-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.flag-container img {
+    width: 90px;
+    opacity: 0.9;
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+    animation: fadeInFlag 1s ease;
+}
 
 .subtitle {
     font-size: 1.5em;
@@ -45,6 +58,7 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 /* Section introduction */
 .intro-section {
@@ -264,7 +278,7 @@ html {
 
 /* Footer */
 .main-footer {
-    background: rgba(0, 0, 0, 0.8);
+    background: #2E5F8A ;
     color: white;
     padding: 30px;
     text-align: center;
@@ -276,6 +290,30 @@ html {
     margin: 10px 0;
     font-size: 0.95em;
     opacity: 0.95;
+}
+/*Liens vers sites officiels */
+.official-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.official-link {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #1E3A5F , #1E3A5F );
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(128, 117, 221, 0.3);
+    font-weight: 500;
+}
+
+.official-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(128, 117, 221, 0.5);
 }
 
 /* Back to top button */
